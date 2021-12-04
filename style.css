@@ -1,6 +1,6 @@
 html {
   font-family: Helvetica;
-  font-size 22px;
+  font-size 16px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
@@ -15,12 +15,21 @@ a {
   text-decoration: none;
 }
 
+p {
+  font-size: 0.5em;
+}
+
 h2 {
   font-size: 2em;
 }
 
 h4 {
-  font-size: 1.25em;
+  font-size: 2em;
+}
+
+.logo {
+  height: 6em;
+  width: 15em;
 }
 
 .banner {
@@ -76,7 +85,7 @@ img {
 
 
 .locations {
-  height: 500px;
+  height: 600px;
   width: auto;
   background-image: url('assets/img-locations-background.webp');
   background-position: center;
@@ -99,8 +108,8 @@ img {
 
 .adress {
   flex-direction: column;
-  display: inline-flex;
-  justify-content: center;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   background-color: black;
   height: 300px;
